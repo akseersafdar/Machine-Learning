@@ -1,0 +1,23 @@
+Linear SVM is the newest extremely fast machine learning (data mining) algorithm for solving multiclass classification problems from ultra large data sets that implements an original proprietary version of a cutting plane algorithm for designing a linear support vector machine. LinearSVM is a linearly scalable routine meaning that it creates an SVM model in a CPU time which scales linearly with the size of the training data set. Our comparisons with other known SVM models clearly show its superior performance when high accuracy is required. We would highly appreciate if you may share LinearSVM performance on your data sets with us.
+
+Features
+
+•Efficiency in dealing with extra large data sets (say, several millions training data pairs),
+
+•Solution of multiclass classification problems with any number of classes,
+
+•Working with high dimensional data (thousands of features, attributes) in both sparse and dense format,
+
+•No need for expensive computing resources (personal computer is a standard platform),
+
+•Ideal for contemporary applications in digital advertisement, e-commerce, web page categorization, text classification, bioinformatics, proteomics, banking services and many other areas.
+
+Useful web links;
+
+https://en.wikipedia.org/wiki/Support-vector_machine
+
+http://www.linearsvm.com/
+
+In this section, we'll build a linear SVM classifier to classify emails into spam and ham. The dataset, taken from the UCI ML repository, contains about 4600 emails labelled as spam or ham.
+
+The dataset can be downloaded here: https://archive.ics.uci.edu/ml/datasets/spambase
