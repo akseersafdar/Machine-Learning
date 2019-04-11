@@ -1,0 +1,13 @@
+Random Forest Algorithm
+Random forests or random decision forests are an ensemble learning method for classification, regression and 
+other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that
+is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision
+forests correct for decision trees' habit of overfitting to their training set.
+
+More details @ https://en.wikipedia.org/wiki/Random_forest
+
+https://medium.com/@Synced/how-random-forest-algorithm-works-in-machine-learning-3c0fe15b6674
+
+In this exercise we will try to predict if a customer would default or Not. Credit Card is a very
+important product for banks and it is crucial for them to know in advance if a customer is likely to default
+on credit card payments. We will clean the data first and then would tune the hyper parameter for final prediction model.
