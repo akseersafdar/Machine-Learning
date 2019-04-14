@@ -1,0 +1,14 @@
+Hyper-parameters are parameters that are not directly learnt within estimators. In scikit-learn they are
+passed as arguments to the constructor of the estimator classes. Typical examples include C, kernel and gamma for
+Support Vector Classifier, alpha for Lasso, etc.
+
+It is possible and recommended to search the hyper-parameter space for the best cross validation score.
+
+Any parameter provided when constructing an estimator may be optimized in this manner. Specifically, to find
+the names and current values for all parameters for a given estimator.
+
+Useful links;
+
+https://scikit-learn.org/stable/modules/grid_search.html
+https://scikit-learn.org/0.16/modules/generated/sklearn.grid_search.GridSearchCV.html
+
