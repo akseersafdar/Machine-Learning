@@ -1,0 +1,18 @@
+XGBoost
+XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable.
+It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting 
+(also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major
+distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
+
+XGBoost initially started as a research project by Tianqi Chen as part of the Distributed (Deep) Machine Learning 
+Community (DMLC) group. Initially, it began as a terminal application which could be configured using a libsvm
+configuration file. It became well known in the ML competition circles after its use in the winning solution of
+the Higgs Machine Learning Challenge. Soon after, the Python and R packages were built, and XGBoost now has
+package implementations for Julia, Scala, Java, and other languages. This brought the library to more developers 
+and contributed to its popularity among the Kaggle community, where it has been used for a large number of competitions.
+
+More details @
+
+https://xgboost.readthedocs.io/en/release_0.72/index.html
+
+https://en.wikipedia.org/wiki/XGBoost
